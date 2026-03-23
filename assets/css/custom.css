@@ -11,18 +11,36 @@ b6e0e2-marine blue
 Ribeye-marrow
 Lexend******/
 body, div, p {
-    font-family: ;
+    font-family: "Ribeye-marrow";
 }
 h1, h2, h3, h4, h5, h6 {
-
+    font-family:
 }
 #hero-text {
     text-align: center;
+    font-family: "Ribeye-Marrow";
 }
+.header .header-logo a{
+    color: #192f4d;
+}
+
 /**** COLORS *****/
 body {
     background-color: #b6e0e2 !important;
 }
 #portfolio {
     background-color: #b6e0e2;
+}
+.stroke-text {
+    color: #192f4d !important;
+    -webkit-text-stroke-color:#192f4d;
+}
+.a:hover {
+    color: #192f4d;
+}
+.bg-dark-content, .bg-black, [class*='bg-dark'], [class*='bg-gradient-'], [class*='bg-color-'] {
+    background-color: #f1faee !important;
+}
+.text-link-2, #menu-button, .mt-3, i, #button {
+    color: #192f4d !important;
 }
