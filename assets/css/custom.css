@@ -1,0 +1,28 @@
+/********** colors ************
+https://coolors.co/dbe3d8-f1faee-b6e0e2-9bced4-4b86aa-192f4d
+dbe3d8-light grey
+f1faee-tannish grey
+b6e0e2-marine blue
+9bced4-frosty blue
+4b86aa-air force blue
+192f4d-deep blue
+*****************/
+/*******fonts
+ribeye-marrow
+Lexdend******/
+body, div, p {
+    font-family: ;
+}
+h1, h2, h3, h4, h5, h6 {
+
+}
+#hero-text {
+    text-align: center;
+}
+/**** COLORS *****/
+body {
+    background-color: #b6e0e2 !important;
+}
+#portfolio {
+    background-color: #b6e0e2;
+}
