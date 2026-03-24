@@ -14,7 +14,7 @@ body, div, p {
     font-family: "Ribeye-marrow";
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family:
+    font-family: "Lexend" !important;
 }
 #hero-text {
     text-align: center;
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 .header .header-logo a{
     color: #192f4d;
 }
-
+ 
 /**** COLORS *****/
 body {
     background-color: #b6e0e2 !important;
@@ -43,4 +43,45 @@ body {
 }
 .text-link-2, #menu-button, .mt-3, i, #button {
     color: #192f4d !important;
+}
+
+.bg-dark-content, .bg-black, [class*='bg-dark'], [class*='bg-gradient-'], [class*='bg-color-']{
+    background-color: #4b86aa !important;
+}
+
+.button-circle.button-circle-dark {
+    background-color:#192f4d !important;
+    color:#4b86aa !important;
+    -webkit-text-fill-color: #4b86aa !important;
+}
+
+#uparrow {
+color:#4b86aa !important;
+}
+#scrollheader::scroll {
+    background-color: #192f4d;
+    color:#f1faee;
+}
+
+/*** NAV MENU ****/
+#closeButton {
+    background-color: #192f4d !important;
+    border-radius: 20px;
+}
+
+/*** OUR TEAM SECTION *******/
+
+#ourteam, #foundersjobs {
+    color: #4b86aa ;
+}
+#founders, #accordiantitle, h5 {
+    color: #192f4d !important;
+}
+
+ #accordiantext {
+    color: #4b86aa !important;
+}
+
+.accordionli:active {
+    color: #192f4d;
 }
