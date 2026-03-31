@@ -73,6 +73,16 @@ color:#4b86aa !important;
     background-color: #f1faee !important;
 }
 
+.header.header-color-dark {
+  background: #192f4d;
+}
+.header.header-color-dark.transparent-dark {
+  background: none;
+}
+.header[class*="header-color"]:not(.transparent-dark) .header-logo a {
+  color: #f1faee;
+}
+
 /*** OUR TEAM SECTION *******/
 
 #ourteam, #foundersjobs {
